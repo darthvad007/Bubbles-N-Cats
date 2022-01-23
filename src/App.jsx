@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "./logo.svg";
+import logo from "./cat.jpg";
 import "./App.css";
 import "emoji-mart/css/emoji-mart.css";
 import { Picker } from "emoji-mart";
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Max! {emoji && emoji.native}</p>
+        <p>Hello Kitty and Rush Lovers! {emoji && emoji.native}</p>
         {showPicker && (
           <Picker
             set="apple"
@@ -29,7 +29,7 @@ function App() {
         )}
         <p>
           <button type="button" onClick={() => setShowPicker(!showPicker)}>
-            Toggle picker
+            Feelings for kitties
           </button>
         </p>
         <p>
@@ -38,20 +38,20 @@ function App() {
         <p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://youtu.be/4vLaO7hoTxM?t=4"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Music Video
           </a>
           {" | "}
           <a
             className="App-link"
-            href="https://vitejs.dev/guide/features.html"
+            href="https://www.google.com/search?q=kittens&rlz=1C1GGRV_enUS751US751&sxsrf=AOaemvJ5yuKo5ROWmFs_mF-O2p9KzQ8Y6A:1642978816199&source=lnms&tbm=isch&sa=X&sqi=2&ved=2ahUKEwiYztmF_cj1AhXAAWMBHdv6DcgQ_AUoAXoECAEQAw&biw=1099&bih=1084&dpr=1.75"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Vite Docs
+            Kitties
           </a>
         </p>
       </header>
